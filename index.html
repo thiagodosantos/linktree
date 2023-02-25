@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My Linktree</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+  <header class="headline1 load-hidden">
+    <img src="https://avatars.githubusercontent.com/u/13454507?v=4" alt="profile avatar" />
+    <h1 class="headline2 load-hidden">Thiago Santos</h1>
+    <p class="headline3 load-hidden">@thiagodosantos_</p>
+  </header>
+
+  <main>
+    <h2 class="headline3 load-hidden">Redes Sociais</h2>
+    <div class="headline4 load-hidden">
+      <a href="https://www.instagram.com/thiagodosantos_" target="_blank" rel="noopener noreferrer">
+        <article class="instagram">
+          <i data-feather="instagram"></i>Instagram
+        </article>
+      </a>
+      <a href="https://www.linkedin.com/in/thiagodosantos/" target="_blank" rel="noopener noreferrer">
+        <article class="linkedin">
+          <i data-feather="linkedin"></i>Linkedin
+        </article>
+      </a>
+      <a href="https://github.com/thiagodosantos" target="_blank" rel="noopener noreferrer">
+        <article class="github">
+          <i data-feather="github"></i>Github
+        </article>
+      </a>
+    </div>
+
+    <h2 class="headline5 load-hidden">Me</h2>
+    <div class="headline6 load-hidden">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <article class="portifolio">
+          <i data-feather="code"></i>Portifolio
+        </article>
+      </a>
+    </div>
+  </main>
+
+  <script>
+    feather.replace();
+  </script>
+  <script>
+    ScrollReveal().reveal('.headline1', { duration: 1000 });
+    ScrollReveal().reveal('.headline2', { duration: 2000 });
+    ScrollReveal().reveal('.headline3', { duration: 3000 });
+    ScrollReveal().reveal('.headline4', { duration: 4000 });
+    ScrollReveal().reveal('.headline5', { duration: 5000 });
+    ScrollReveal().reveal('.headline6', { duration: 6000 });
+  </script>
+</body>
+
+</html>

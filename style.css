@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap");
+
+:root {
+  --green: #15cdcb;
+  --dark: #212226;
+  --white: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #071013;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: 400;
+}
+
+header img {
+  border-radius: 50%;
+  border: 4px solid var(--green);
+  height: 128px;
+  width: 128px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 500;
+  background: linear-gradient(70deg, #1cb0bb 13%, var(--green) 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+header img:hover {
+  border-radius: 50%;
+  border: 4px solid #ccc;
+}
+
+main {
+  width: 600px;
+  color: #fafafa;
+  padding: 14px;
+  margin: auto;
+}
+
+main h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 32px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+main div a {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+main div article {
+  min-height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--green);
+  background: #fafafe;
+  transition: all 0.4s ease-out;
+}
+
+main div article svg {
+  margin-right: 16px;
+}
+
+main div article:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+.linkedin:hover {
+  color: #56a6f6;
+}
+
+.instagram:hover {
+  color: #cc2366;
+}
+
+.github:hover {
+  color: #0e76a8;
+}
+
+.portifolio:hover {
+  color: #8a2be2;
+}
+
+
+/* Media queries */
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  /* html {
+    font-size: 50%;
+  } */
+
+  main {
+    width: 100%;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  /* html {
+    font-size: 50%;
+  } */
+
+  main {
+    width: 100%;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+}
