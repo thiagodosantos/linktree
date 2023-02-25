@@ -161,6 +161,22 @@ main div article:hover {
   main h2 {
     text-align: center;
   }
+
+  .linkedin {
+    color: #56a6f6;
+  }
+  
+  .instagram {
+    color: #cc2366;
+  }
+  
+  .github {
+    color: #0e76a8;
+  }
+  
+  .portifolio {
+    color: #8a2be2;
+  }
 }
 
 @media (max-width: 375px) {
@@ -175,4 +191,21 @@ main div article:hover {
   main h2 {
     text-align: center;
   }
+
+  .linkedin {
+    color: #56a6f6;
+  }
+  
+  .instagram {
+    color: #cc2366;
+  }
+  
+  .github {
+    color: #0e76a8;
+  }
+  
+  .portifolio {
+    color: #8a2be2;
+  }
 }
+
